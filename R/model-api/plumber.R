@@ -26,7 +26,7 @@ function(req, res) {
                    error = function(e) NULL)
   if (is.null(data)) {
     res$status <- 400
-    list(error = "No data submitted")
+    return(list(error = "No data submitted"))
   }
 
   predict(cars_model, data)
