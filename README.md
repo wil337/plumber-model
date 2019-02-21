@@ -1,9 +1,13 @@
 # Deploying ML models via Plumber
 
-This repository provides a working example for deploying a Machine Learning
-model via the [`plumber`](https://www.rplumber.io) package. This repository also
-contains [slides](slides/) used for a talk given at [RStudio::conf
+A working example for deploying a Machine Learning model via the
+[`plumber`](https://www.rplumber.io) package. This repository also contains
+[slides](slides/) used for a talk given at [RStudio::conf
 2019](https://www.rstudio.com/conference/).
+
+[🎥 of RStudio::conf 2019 talk](https://resources.rstudio.com/rstudio-conf-2019/democratizing-r-with-plumber-apis)
+
+---
 
 There are two separate pieces to this example. The [model-api](R/model-api)
 files provide scripts for both training a simple model and building a Plumber
